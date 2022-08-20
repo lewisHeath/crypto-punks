@@ -39,5 +39,8 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "https://lewisheath.github.io/crypto-punks/"
+  "homepage": "https://lewisheath.github.io/crypto-punks/",
+  "devDependencies": {
+    "eslint-config-react-app": "^7.0.1"
+  }
 }

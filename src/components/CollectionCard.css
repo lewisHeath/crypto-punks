@@ -1,10 +1,10 @@
-.collectionCard {
+    .collectionCard {
     color: white;
     background-color: #1a1c1e;
     border-radius: 20px;
     overflow: hidden;
     width: 300px;
-    height: 500px;
+    /* height: 550px; */
     margin-right: 30px;
 }
 
@@ -42,4 +42,30 @@
 .price {
     margin-left: 5px;
     font-weight: 600;
+}
+
+.traits {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.trait {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+    justify-content: space-between;
+}
+
+.traitName {
+    color: #a1a5b0;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.traitValue {
+    color: #a1a5b0;
+    font-size: 18px;
+    font-weight: 600;
+    /* dont let it be too long */
 }
